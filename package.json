@@ -93,5 +93,8 @@
   "packageManager": "pnpm@10.13.1",
   "stackblitz": {
     "startCommand": "pnpm --filter='./packages/vite' run dev"
+  },
+  "overrides": {
+    "stylus": "github:stylus/stylus#0.59.0"
   }
 }
